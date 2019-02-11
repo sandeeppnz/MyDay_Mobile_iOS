@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5BA5B5215DE86C00A311A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BA5B4215DE86B00A311A0 /* Assets.xcassets */; };
+		2C5BA5B7215DEC2F00A311A0 /* csda_logo_long 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BA5B6215DEC2F00A311A0 /* csda_logo_long 2.png */; };
+		2C9B3FCC216C039900A16000 /* WAM_header.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B3FCB216C039800A16000 /* WAM_header.PNG */; };
+		2C9B3FCE216C03A700A16000 /* warrenmahony_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B3FCD216C03A700A16000 /* warrenmahony_header.png */; };
+		2C9B3FD0216C09EE00A16000 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B3FCF216C09ED00A16000 /* ok.png */; };
+		2CA32F47215AE9D7008F5B30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA32F46215AE9D7008F5B30 /* LoginViewController.swift */; };
+		2CDBE430216B78C00036C5B5 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBE42F216B78C00036C5B5 /* Page1ViewController.swift */; };
+		2CDBE432216BF5430036C5B5 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBE431216BF5430036C5B5 /* Page2ViewController.swift */; };
+		523E5172897D4228F6EC9BC4 /* Pods_ProximiioSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EFB497F136F6EC50E3C304 /* Pods_ProximiioSwiftDemo.framework */; };
+		613C0C45210A2E15008AA54F /* ibeacon_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 613C0C43210A2E08008AA54F /* ibeacon_marker.png */; };
+		613C0C46210A2E15008AA54F /* eddystone_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 613C0C44210A2E15008AA54F /* eddystone_marker.png */; };
+		61955A781F74F7A800148718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61955A771F74F7A800148718 /* AppDelegate.swift */; };
+		61955A7A1F74F7A800148718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61955A791F74F7A800148718 /* ViewController.swift */; };
+		61955A7D1F74F7A800148718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61955A7B1F74F7A800148718 /* Main.storyboard */; };
+		61955A821F74F7A800148718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61955A801F74F7A800148718 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C5BA5B4215DE86B00A311A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5BA5B6215DEC2F00A311A0 /* csda_logo_long 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "csda_logo_long 2.png"; sourceTree = "<group>"; };
+		2C9B3FCB216C039800A16000 /* WAM_header.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WAM_header.PNG; sourceTree = "<group>"; };
+		2C9B3FCD216C03A700A16000 /* warrenmahony_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warrenmahony_header.png; sourceTree = "<group>"; };
+		2C9B3FCF216C09ED00A16000 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		2CA32F46215AE9D7008F5B30 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2CDBE42F216B78C00036C5B5 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		2CDBE431216BF5430036C5B5 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		613C0C43210A2E08008AA54F /* ibeacon_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibeacon_marker.png; sourceTree = "<group>"; };
+		613C0C44210A2E15008AA54F /* eddystone_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eddystone_marker.png; sourceTree = "<group>"; };
+		61955A741F74F7A800148718 /* ProximiioSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximiioSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61955A771F74F7A800148718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61955A791F74F7A800148718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61955A7C1F74F7A800148718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61955A811F74F7A800148718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61955A831F74F7A800148718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C8E7E20A2700FF1EBBB798D /* Pods-ProximiioSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximiioSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProximiioSwiftDemo/Pods-ProximiioSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9298508FDC95083D03F22F18 /* Pods-ProximiioSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximiioSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProximiioSwiftDemo/Pods-ProximiioSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E9EFB497F136F6EC50E3C304 /* Pods_ProximiioSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProximiioSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61955A711F74F7A800148718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523E5172897D4228F6EC9BC4 /* Pods_ProximiioSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61955A6B1F74F7A800148718 = {
+			isa = PBXGroup;
+			children = (
+				61955A761F74F7A800148718 /* ProximiioSwiftDemo */,
+				61955A751F74F7A800148718 /* Products */,
+				8EDEFB3FAF903A2947D31B32 /* Pods */,
+				8E45C120E89CE5425F319EAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61955A751F74F7A800148718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61955A741F74F7A800148718 /* ProximiioSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61955A761F74F7A800148718 /* ProximiioSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BA5B4215DE86B00A311A0 /* Assets.xcassets */,
+				613C0C44210A2E15008AA54F /* eddystone_marker.png */,
+				613C0C43210A2E08008AA54F /* ibeacon_marker.png */,
+				61955A771F74F7A800148718 /* AppDelegate.swift */,
+				61955A791F74F7A800148718 /* ViewController.swift */,
+				2C9B3FCD216C03A700A16000 /* warrenmahony_header.png */,
+				2C5BA5B6215DEC2F00A311A0 /* csda_logo_long 2.png */,
+				61955A7B1F74F7A800148718 /* Main.storyboard */,
+				2C9B3FCF216C09ED00A16000 /* ok.png */,
+				61955A801F74F7A800148718 /* LaunchScreen.storyboard */,
+				61955A831F74F7A800148718 /* Info.plist */,
+				2CA32F46215AE9D7008F5B30 /* LoginViewController.swift */,
+				2C9B3FCB216C039800A16000 /* WAM_header.PNG */,
+				2CDBE42F216B78C00036C5B5 /* Page1ViewController.swift */,
+				2CDBE431216BF5430036C5B5 /* Page2ViewController.swift */,
+			);
+			path = ProximiioSwiftDemo;
+			sourceTree = "<group>";
+		};
+		8E45C120E89CE5425F319EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFB497F136F6EC50E3C304 /* Pods_ProximiioSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EDEFB3FAF903A2947D31B32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C8E7E20A2700FF1EBBB798D /* Pods-ProximiioSwiftDemo.debug.xcconfig */,
+				9298508FDC95083D03F22F18 /* Pods-ProximiioSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61955A731F74F7A800148718 /* ProximiioSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61955A861F74F7A800148718 /* Build configuration list for PBXNativeTarget "ProximiioSwiftDemo" */;
+			buildPhases = (
+				4B485F8959F7CB942332EE04 /* [CP] Check Pods Manifest.lock */,
+				61955A701F74F7A800148718 /* Sources */,
+				61955A711F74F7A800148718 /* Frameworks */,
+				61955A721F74F7A800148718 /* Resources */,
+				AC2C995907BC2ED9F221BEDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximiioSwiftDemo;
+			productName = ProximiioSwiftDemo;
+			productReference = 61955A741F74F7A800148718 /* ProximiioSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61955A6C1F74F7A800148718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Proximi.io;
+				TargetAttributes = {
+					61955A731F74F7A800148718 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4354EFTNPA;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 61955A6F1F74F7A800148718 /* Build configuration list for PBXProject "ProximiioSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61955A6B1F74F7A800148718;
+			productRefGroup = 61955A751F74F7A800148718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61955A731F74F7A800148718 /* ProximiioSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61955A721F74F7A800148718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613C0C46210A2E15008AA54F /* eddystone_marker.png in Resources */,
+				61955A821F74F7A800148718 /* LaunchScreen.storyboard in Resources */,
+				61955A7D1F74F7A800148718 /* Main.storyboard in Resources */,
+				2C5BA5B7215DEC2F00A311A0 /* csda_logo_long 2.png in Resources */,
+				613C0C45210A2E15008AA54F /* ibeacon_marker.png in Resources */,
+				2C9B3FD0216C09EE00A16000 /* ok.png in Resources */,
+				2C9B3FCE216C03A700A16000 /* warrenmahony_header.png in Resources */,
+				2C5BA5B5215DE86C00A311A0 /* Assets.xcassets in Resources */,
+				2C9B3FCC216C039900A16000 /* WAM_header.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B485F8959F7CB942332EE04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProximiioSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2C995907BC2ED9F221BEDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProximiioSwiftDemo/Pods-ProximiioSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${PODS_ROOT}/Proximiio/Pod/Proximiio.framework",
+				"${PODS_ROOT}/ProximiioMap/Pod/ProximiioMap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proximiio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProximiioMap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProximiioSwiftDemo/Pods-ProximiioSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61955A701F74F7A800148718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDBE432216BF5430036C5B5 /* Page2ViewController.swift in Sources */,
+				2CA32F47215AE9D7008F5B30 /* LoginViewController.swift in Sources */,
+				2CDBE430216B78C00036C5B5 /* Page1ViewController.swift in Sources */,
+				61955A7A1F74F7A800148718 /* ViewController.swift in Sources */,
+				61955A781F74F7A800148718 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61955A7B1F74F7A800148718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61955A7C1F74F7A800148718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61955A801F74F7A800148718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61955A811F74F7A800148718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61955A841F74F7A800148718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61955A851F74F7A800148718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61955A871F74F7A800148718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8E7E20A2700FF1EBBB798D /* Pods-ProximiioSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4354EFTNPA;
+				INFOPLIST_FILE = ProximiioSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csdaresearch.mydayios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61955A881F74F7A800148718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9298508FDC95083D03F22F18 /* Pods-ProximiioSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4354EFTNPA;
+				INFOPLIST_FILE = ProximiioSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csdaresearch.mydayios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61955A6F1F74F7A800148718 /* Build configuration list for PBXProject "ProximiioSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61955A841F74F7A800148718 /* Debug */,
+				61955A851F74F7A800148718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61955A861F74F7A800148718 /* Build configuration list for PBXNativeTarget "ProximiioSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61955A871F74F7A800148718 /* Debug */,
+				61955A881F74F7A800148718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61955A6C1F74F7A800148718 /* Project object */;
+}

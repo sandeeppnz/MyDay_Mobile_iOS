@@ -1,0 +1,25 @@
+PODS:
+  - M13Checkbox (3.2.2)
+  - Proximiio (1.1.49)
+  - ProximiioMap (0.2.8):
+    - Proximiio
+
+DEPENDENCIES:
+  - M13Checkbox
+  - Proximiio
+  - ProximiioMap
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - M13Checkbox
+    - Proximiio
+    - ProximiioMap
+
+SPEC CHECKSUMS:
+  M13Checkbox: a8c2491cfbbca10797925fd0b9154a782bf40d89
+  Proximiio: 05b75c25451b6f460a9640180bb093029e7336c3
+  ProximiioMap: c92f873f6fbe8273ed8825d329ab0eb5897b0c36
+
+PODFILE CHECKSUM: 9790a179f94489fc2d310801b86d79459b86faac
+
+COCOAPODS: 1.5.3
