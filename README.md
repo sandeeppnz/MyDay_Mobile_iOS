@@ -12,7 +12,13 @@ MyDay surveys give valuable insight into the working day experience, which provi
 <img width="20%" src="pic3.jpeg" alt="Map" title="Map"></img>
 </div>
 
+
+
 ## Installation
 ```
 pod install
 ```
+## Libraries
+Firebase
+API calls to Azure database
+Third party location detection (Proximi.io)
